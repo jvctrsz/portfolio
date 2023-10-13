@@ -210,6 +210,8 @@ nav{
 }
 
 .project-box{
+    max-width: 350px;
+    min-width: 350px;
     padding: 20px;
     margin-bottom: 10px;
     background-color:#5c5e5b1e;
@@ -222,6 +224,7 @@ nav{
 }
 
 .project-box > a > img{
+   
     display: flex;
     align-items: center;
     border-radius: 10px;
@@ -232,6 +235,7 @@ nav{
     font-family: var(--pixely-font);
     letter-spacing: 1.5px;
     font-size: 20px;
+    max-width:340px;
 }
 
 /* FOOTER */
