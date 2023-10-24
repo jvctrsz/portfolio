@@ -95,6 +95,10 @@
         transition: 0.4s;
     }
 
+    .active{
+        color: #339989;
+    }
+
     main{
         display: flex;
         flex-direction: column;
