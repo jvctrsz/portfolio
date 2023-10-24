@@ -92,10 +92,8 @@
 
     menu > a:hover{
         color: #339989;
-        border-bottom: 2px solid #7DE2D1;
         transition: 0.4s;
     }
-
 
     main{
         display: flex;
@@ -166,9 +164,10 @@
     }
  
     .projects{
+        border: 1px solid red;
         display: flex;
         max-width: 1100px;
-        justify-content: left;
+        justify-content: center;
     }
 
     .project-box:hover{
